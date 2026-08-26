@@ -8,12 +8,12 @@ OUT_PATH = os.path.join(HERE, "index.html")
 
 PLATFORM_META = {
     "10012": {"short": "美客多", "full": "MercadoLibre 美客多", "color": "#FFE600"},
+    "10008": {"short": "沃尔玛", "full": "Walmart 沃尔玛", "color": "#0071DC"},
 }
 
-# eMAG / 沃尔玛 目前领星无数据，作为占位展示
+# eMAG 目前领星无数据，作为占位展示
 EXTRA_PLATFORMS = [
     {"code": "eMAG", "short": "eMAG", "full": "eMAG", "has_data": False},
-    {"code": "WMT", "short": "沃尔玛", "full": "Walmart 沃尔玛", "has_data": False},
 ]
 
 
